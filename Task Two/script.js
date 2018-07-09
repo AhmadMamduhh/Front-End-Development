@@ -15,7 +15,7 @@ checkboxes.forEach(function(checkbox , index) {
 //----------------Looping through all the previous checkboxes and checking all checkboxes between the previous checked checkbox and the next checked checkbox-------------
             for (var i = index - 1; i >= 0; i--) {
 
-//---------------Condition is true if there's a previous checked box-----------------------------
+//---------------Condition is true if there's a previous checked checkbox-----------------------------
                 if (checkboxes[i].checked == true) {
 
 //---------------Checking all the checkboxes between the last checked checkbox and the clicked checkbox---------------
