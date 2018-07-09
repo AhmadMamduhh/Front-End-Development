@@ -1,0 +1,38 @@
+
+body{
+    background-color: black;
+}
+h1{
+    color: azure;
+    margin-left: 39%;
+}
+hr{
+background-color: azure;
+}
+.item {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #F1F1F1;
+}
+.container .item p{
+    color: azure;
+}
+
+p {
+    margin: 0;
+    padding: 15px;
+    flex: 1;
+    font-size: 18px;
+    border-left: 2px solid azure;
+}
+
+input:checked+p{
+    text-decoration: line-through;
+    text-decoration-color: black;
+    background-color: grey;
+}
+
+input {
+    margin: 20px;
+}
+
